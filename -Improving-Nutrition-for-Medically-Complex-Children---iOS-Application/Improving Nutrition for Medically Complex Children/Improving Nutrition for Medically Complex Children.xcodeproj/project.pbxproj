@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D22FD92B93BA1600E70386 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D22FD82B93BA1500E70386 /* HomeView.swift */; };
+		29D22FDB2B93BAD600E70386 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D22FDA2B93BAD600E70386 /* ColorExtensions.swift */; };
+		29D22FDF2B93C9B800E70386 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D22FDE2B93C9B800E70386 /* Dashboard.swift */; };
+		29D22FE12B93C9C600E70386 /* FeedingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D22FE02B93C9C600E70386 /* FeedingPlanView.swift */; };
+		29D22FE32B93C9D500E70386 /* PatientFeedingLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D22FE22B93C9D500E70386 /* PatientFeedingLogView.swift */; };
+		AEDBA5B32B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5B22B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift */; };
+		AEDBA5B52B92A1F0002086CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5B42B92A1F0002086CE /* ContentView.swift */; };
+		AEDBA5B72B92A1F1002086CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDBA5B62B92A1F1002086CE /* Assets.xcassets */; };
+		AEDBA5BA2B92A1F1002086CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDBA5B92B92A1F1002086CE /* Preview Assets.xcassets */; };
+		AEDBA5C52B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5C42B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift */; };
+		AEDBA5CF2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5CE2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift */; };
+		AEDBA5D12B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5D02B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEDBA5C12B92A1F1002086CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEDBA5A72B92A1F0002086CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEDBA5AE2B92A1F0002086CE;
+			remoteInfo = "Improving Nutrition for Medically Complex Children";
+		};
+		AEDBA5CB2B92A1F1002086CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEDBA5A72B92A1F0002086CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEDBA5AE2B92A1F0002086CE;
+			remoteInfo = "Improving Nutrition for Medically Complex Children";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29D22FD82B93BA1500E70386 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		29D22FDA2B93BAD600E70386 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		29D22FDE2B93C9B800E70386 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		29D22FE02B93C9C600E70386 /* FeedingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingPlanView.swift; sourceTree = "<group>"; };
+		29D22FE22B93C9D500E70386 /* PatientFeedingLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientFeedingLogView.swift; sourceTree = "<group>"; };
+		AEDBA5AF2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Improving Nutrition for Medically Complex Children.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDBA5B22B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift; sourceTree = "<group>"; };
+		AEDBA5B42B92A1F0002086CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEDBA5B62B92A1F1002086CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEDBA5B92B92A1F1002086CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEDBA5BB2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_Children.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Improving_Nutrition_for_Medically_Complex_Children.entitlements; sourceTree = "<group>"; };
+		AEDBA5C02B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Improving Nutrition for Medically Complex ChildrenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDBA5C42B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift; sourceTree = "<group>"; };
+		AEDBA5CA2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Improving Nutrition for Medically Complex ChildrenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDBA5CE2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift; sourceTree = "<group>"; };
+		AEDBA5D02B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEDBA5AC2B92A1F0002086CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBA5BD2B92A1F1002086CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBA5C72B92A1F1002086CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEDBA5A62B92A1F0002086CE = {
+			isa = PBXGroup;
+			children = (
+				AEDBA5B12B92A1F0002086CE /* Improving Nutrition for Medically Complex Children */,
+				AEDBA5C32B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests */,
+				AEDBA5CD2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests */,
+				AEDBA5B02B92A1F0002086CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEDBA5B02B92A1F0002086CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEDBA5AF2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children.app */,
+				AEDBA5C02B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests.xctest */,
+				AEDBA5CA2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEDBA5B12B92A1F0002086CE /* Improving Nutrition for Medically Complex Children */ = {
+			isa = PBXGroup;
+			children = (
+				AEDBA5B22B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift */,
+				AEDBA5B42B92A1F0002086CE /* ContentView.swift */,
+				AEDBA5B62B92A1F1002086CE /* Assets.xcassets */,
+				AEDBA5BB2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_Children.entitlements */,
+				AEDBA5B82B92A1F1002086CE /* Preview Content */,
+				29D22FD82B93BA1500E70386 /* HomeView.swift */,
+				29D22FDA2B93BAD600E70386 /* ColorExtensions.swift */,
+				29D22FDE2B93C9B800E70386 /* Dashboard.swift */,
+				29D22FE02B93C9C600E70386 /* FeedingPlanView.swift */,
+				29D22FE22B93C9D500E70386 /* PatientFeedingLogView.swift */,
+			);
+			path = "Improving Nutrition for Medically Complex Children";
+			sourceTree = "<group>";
+		};
+		AEDBA5B82B92A1F1002086CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEDBA5B92B92A1F1002086CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEDBA5C32B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEDBA5C42B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift */,
+			);
+			path = "Improving Nutrition for Medically Complex ChildrenTests";
+			sourceTree = "<group>";
+		};
+		AEDBA5CD2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEDBA5CE2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift */,
+				AEDBA5D02B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift */,
+			);
+			path = "Improving Nutrition for Medically Complex ChildrenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEDBA5AE2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDBA5D42B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex Children" */;
+			buildPhases = (
+				AEDBA5AB2B92A1F0002086CE /* Sources */,
+				AEDBA5AC2B92A1F0002086CE /* Frameworks */,
+				AEDBA5AD2B92A1F0002086CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Improving Nutrition for Medically Complex Children";
+			productName = "Improving Nutrition for Medically Complex Children";
+			productReference = AEDBA5AF2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEDBA5BF2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDBA5D72B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex ChildrenTests" */;
+			buildPhases = (
+				AEDBA5BC2B92A1F1002086CE /* Sources */,
+				AEDBA5BD2B92A1F1002086CE /* Frameworks */,
+				AEDBA5BE2B92A1F1002086CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEDBA5C22B92A1F1002086CE /* PBXTargetDependency */,
+			);
+			name = "Improving Nutrition for Medically Complex ChildrenTests";
+			productName = "Improving Nutrition for Medically Complex ChildrenTests";
+			productReference = AEDBA5C02B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEDBA5C92B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDBA5DA2B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex ChildrenUITests" */;
+			buildPhases = (
+				AEDBA5C62B92A1F1002086CE /* Sources */,
+				AEDBA5C72B92A1F1002086CE /* Frameworks */,
+				AEDBA5C82B92A1F1002086CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEDBA5CC2B92A1F1002086CE /* PBXTargetDependency */,
+			);
+			name = "Improving Nutrition for Medically Complex ChildrenUITests";
+			productName = "Improving Nutrition for Medically Complex ChildrenUITests";
+			productReference = AEDBA5CA2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEDBA5A72B92A1F0002086CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AEDBA5AE2B92A1F0002086CE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AEDBA5BF2B92A1F1002086CE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AEDBA5AE2B92A1F0002086CE;
+					};
+					AEDBA5C92B92A1F1002086CE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AEDBA5AE2B92A1F0002086CE;
+					};
+				};
+			};
+			buildConfigurationList = AEDBA5AA2B92A1F0002086CE /* Build configuration list for PBXProject "Improving Nutrition for Medically Complex Children" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEDBA5A62B92A1F0002086CE;
+			productRefGroup = AEDBA5B02B92A1F0002086CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEDBA5AE2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children */,
+				AEDBA5BF2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests */,
+				AEDBA5C92B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEDBA5AD2B92A1F0002086CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDBA5BA2B92A1F1002086CE /* Preview Assets.xcassets in Resources */,
+				AEDBA5B72B92A1F1002086CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBA5BE2B92A1F1002086CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBA5C82B92A1F1002086CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDBA5AB2B92A1F0002086CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D22FD92B93BA1600E70386 /* HomeView.swift in Sources */,
+				AEDBA5B52B92A1F0002086CE /* ContentView.swift in Sources */,
+				29D22FE12B93C9C600E70386 /* FeedingPlanView.swift in Sources */,
+				29D22FDF2B93C9B800E70386 /* Dashboard.swift in Sources */,
+				29D22FE32B93C9D500E70386 /* PatientFeedingLogView.swift in Sources */,
+				AEDBA5B32B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift in Sources */,
+				29D22FDB2B93BAD600E70386 /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBA5BC2B92A1F1002086CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDBA5C52B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDBA5C62B92A1F1002086CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDBA5D12B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift in Sources */,
+				AEDBA5CF2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEDBA5C22B92A1F1002086CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEDBA5AE2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children */;
+			targetProxy = AEDBA5C12B92A1F1002086CE /* PBXContainerItemProxy */;
+		};
+		AEDBA5CC2B92A1F1002086CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEDBA5AE2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children */;
+			targetProxy = AEDBA5CB2B92A1F1002086CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEDBA5D22B92A1F1002086CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEDBA5D32B92A1F1002086CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AEDBA5D52B92A1F1002086CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Improving Nutrition for Medically Complex Children/Improving_Nutrition_for_Medically_Complex_Children.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Improving Nutrition for Medically Complex Children/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bgill.Improving-Nutrition-for-Medically-Complex-Children";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AEDBA5D62B92A1F1002086CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Improving Nutrition for Medically Complex Children/Improving_Nutrition_for_Medically_Complex_Children.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Improving Nutrition for Medically Complex Children/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bgill.Improving-Nutrition-for-Medically-Complex-Children";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AEDBA5D82B92A1F1002086CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bgill.Improving-Nutrition-for-Medically-Complex-ChildrenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Improving Nutrition for Medically Complex Children.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Improving Nutrition for Medically Complex Children";
+			};
+			name = Debug;
+		};
+		AEDBA5D92B92A1F1002086CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bgill.Improving-Nutrition-for-Medically-Complex-ChildrenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Improving Nutrition for Medically Complex Children.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Improving Nutrition for Medically Complex Children";
+			};
+			name = Release;
+		};
+		AEDBA5DB2B92A1F1002086CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bgill.Improving-Nutrition-for-Medically-Complex-ChildrenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Improving Nutrition for Medically Complex Children";
+			};
+			name = Debug;
+		};
+		AEDBA5DC2B92A1F1002086CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bgill.Improving-Nutrition-for-Medically-Complex-ChildrenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Improving Nutrition for Medically Complex Children";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEDBA5AA2B92A1F0002086CE /* Build configuration list for PBXProject "Improving Nutrition for Medically Complex Children" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDBA5D22B92A1F1002086CE /* Debug */,
+				AEDBA5D32B92A1F1002086CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDBA5D42B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex Children" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDBA5D52B92A1F1002086CE /* Debug */,
+				AEDBA5D62B92A1F1002086CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDBA5D72B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex ChildrenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDBA5D82B92A1F1002086CE /* Debug */,
+				AEDBA5D92B92A1F1002086CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDBA5DA2B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex ChildrenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDBA5DB2B92A1F1002086CE /* Debug */,
+				AEDBA5DC2B92A1F1002086CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEDBA5A72B92A1F0002086CE /* Project object */;
+}
