@@ -1,0 +1,6 @@
+framework module Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests {
+  umbrella header "Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0' # It's recommended to support recent iOS versions, adjust as necessary
+
+target 'Improving Nutrition for Medically Complex Children' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Improving Nutrition for Medically Complex Children
+  pod 'Firebase/Analytics' # For Firebase Analytics
+  pod 'Firebase/Firestore' # For using Firestore database
+  pod 'Firebase/Auth' # For Firebase Authentication
+
+  target 'Improving Nutrition for Medically Complex ChildrenTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Improving Nutrition for Medically Complex ChildrenUITests' do
+    # Pods for testing
+  end
+
+end

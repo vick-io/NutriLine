@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079794E8559AF611F9E58C5E /* Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2444125A5A8D5BD2E93105B0 /* Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests.framework */; };
+		5CA0AAC13151941511AB1368 /* Pods_Improving_Nutrition_for_Medically_Complex_Children.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78052E69727A79FCBFE631D4 /* Pods_Improving_Nutrition_for_Medically_Complex_Children.framework */; };
 		AEDBA5B32B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5B22B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift */; };
 		AEDBA5B52B92A1F0002086CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5B42B92A1F0002086CE /* ContentView.swift */; };
 		AEDBA5B72B92A1F1002086CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDBA5B62B92A1F1002086CE /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		AEDBA5C52B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5C42B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenTests.swift */; };
 		AEDBA5CF2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5CE2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift */; };
 		AEDBA5D12B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBA5D02B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift */; };
+		ED405B6DDB5426694F5C11D0 /* Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02495CBB127868FA4959D403 /* Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02495CBB127868FA4959D403 /* Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C44416CDF10DBF65EF22C7 /* Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.release.xcconfig"; path = "Target Support Files/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BA1F2CF1F763D0E3CF223DA /* Pods-Improving Nutrition for Medically Complex Children.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Improving Nutrition for Medically Complex Children.release.xcconfig"; path = "Target Support Files/Pods-Improving Nutrition for Medically Complex Children/Pods-Improving Nutrition for Medically Complex Children.release.xcconfig"; sourceTree = "<group>"; };
+		2444125A5A8D5BD2E93105B0 /* Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DEF4B485546479E9407F6B /* Pods-Improving Nutrition for Medically Complex ChildrenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Improving Nutrition for Medically Complex ChildrenTests.release.xcconfig"; path = "Target Support Files/Pods-Improving Nutrition for Medically Complex ChildrenTests/Pods-Improving Nutrition for Medically Complex ChildrenTests.release.xcconfig"; sourceTree = "<group>"; };
+		59916FB14C80106C50EFEC1B /* Pods-Improving Nutrition for Medically Complex ChildrenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Improving Nutrition for Medically Complex ChildrenTests.debug.xcconfig"; path = "Target Support Files/Pods-Improving Nutrition for Medically Complex ChildrenTests/Pods-Improving Nutrition for Medically Complex ChildrenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78052E69727A79FCBFE631D4 /* Pods_Improving_Nutrition_for_Medically_Complex_Children.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Improving_Nutrition_for_Medically_Complex_Children.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDBA5AF2B92A1F0002086CE /* Improving Nutrition for Medically Complex Children.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Improving Nutrition for Medically Complex Children.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDBA5B22B92A1F0002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenApp.swift; sourceTree = "<group>"; };
 		AEDBA5B42B92A1F0002086CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +55,8 @@
 		AEDBA5CA2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Improving Nutrition for Medically Complex ChildrenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDBA5CE2B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenUITests.swift; sourceTree = "<group>"; };
 		AEDBA5D02B92A1F1002086CE /* Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improving_Nutrition_for_Medically_Complex_ChildrenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE7D7E479355C7ECF3006D79 /* Pods-Improving Nutrition for Medically Complex Children.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Improving Nutrition for Medically Complex Children.debug.xcconfig"; path = "Target Support Files/Pods-Improving Nutrition for Medically Complex Children/Pods-Improving Nutrition for Medically Complex Children.debug.xcconfig"; sourceTree = "<group>"; };
+		D12045D600B982E63F5A19F7 /* Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.debug.xcconfig"; path = "Target Support Files/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA0AAC13151941511AB1368 /* Pods_Improving_Nutrition_for_Medically_Complex_Children.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079794E8559AF611F9E58C5E /* Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED405B6DDB5426694F5C11D0 /* Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0385B506F03E8A4972635713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE7D7E479355C7ECF3006D79 /* Pods-Improving Nutrition for Medically Complex Children.debug.xcconfig */,
+				1BA1F2CF1F763D0E3CF223DA /* Pods-Improving Nutrition for Medically Complex Children.release.xcconfig */,
+				D12045D600B982E63F5A19F7 /* Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.debug.xcconfig */,
+				19C44416CDF10DBF65EF22C7 /* Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.release.xcconfig */,
+				59916FB14C80106C50EFEC1B /* Pods-Improving Nutrition for Medically Complex ChildrenTests.debug.xcconfig */,
+				29DEF4B485546479E9407F6B /* Pods-Improving Nutrition for Medically Complex ChildrenTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CEAB6E0B460923BEF73C9E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78052E69727A79FCBFE631D4 /* Pods_Improving_Nutrition_for_Medically_Complex_Children.framework */,
+				02495CBB127868FA4959D403 /* Pods_Improving_Nutrition_for_Medically_Complex_Children_Improving_Nutrition_for_Medically_Complex_ChildrenUITests.framework */,
+				2444125A5A8D5BD2E93105B0 /* Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEDBA5A62B92A1F0002086CE = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +118,8 @@
 				AEDBA5C32B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenTests */,
 				AEDBA5CD2B92A1F1002086CE /* Improving Nutrition for Medically Complex ChildrenUITests */,
 				AEDBA5B02B92A1F0002086CE /* Products */,
+				0385B506F03E8A4972635713 /* Pods */,
+				7CEAB6E0B460923BEF73C9E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEDBA5D42B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex Children" */;
 			buildPhases = (
+				507AE701EB38E5EE709BBD1E /* [CP] Check Pods Manifest.lock */,
 				AEDBA5AB2B92A1F0002086CE /* Sources */,
 				AEDBA5AC2B92A1F0002086CE /* Frameworks */,
 				AEDBA5AD2B92A1F0002086CE /* Resources */,
+				ABED6E0D422354554C2CC9F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEDBA5D72B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex ChildrenTests" */;
 			buildPhases = (
+				DB7178D28A2F4899DDAE1816 /* [CP] Check Pods Manifest.lock */,
 				AEDBA5BC2B92A1F1002086CE /* Sources */,
 				AEDBA5BD2B92A1F1002086CE /* Frameworks */,
 				AEDBA5BE2B92A1F1002086CE /* Resources */,
@@ -171,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEDBA5DA2B92A1F1002086CE /* Build configuration list for PBXNativeTarget "Improving Nutrition for Medically Complex ChildrenUITests" */;
 			buildPhases = (
+				AC82356DF1753154147AF807 /* [CP] Check Pods Manifest.lock */,
 				AEDBA5C62B92A1F1002086CE /* Sources */,
 				AEDBA5C72B92A1F1002086CE /* Frameworks */,
 				AEDBA5C82B92A1F1002086CE /* Resources */,
+				FDE107EBF41E9701FA4604D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		507AE701EB38E5EE709BBD1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Improving Nutrition for Medically Complex Children-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABED6E0D422354554C2CC9F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Improving Nutrition for Medically Complex Children/Pods-Improving Nutrition for Medically Complex Children-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Improving Nutrition for Medically Complex Children/Pods-Improving Nutrition for Medically Complex Children-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Improving Nutrition for Medically Complex Children/Pods-Improving Nutrition for Medically Complex Children-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC82356DF1753154147AF807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7178D28A2F4899DDAE1816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Improving Nutrition for Medically Complex ChildrenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE107EBF41E9701FA4604D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests/Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEDBA5AB2B92A1F0002086CE /* Sources */ = {
@@ -417,6 +566,7 @@
 		};
 		AEDBA5D52B92A1F1002086CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7D7E479355C7ECF3006D79 /* Pods-Improving Nutrition for Medically Complex Children.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +592,7 @@
 		};
 		AEDBA5D62B92A1F1002086CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA1F2CF1F763D0E3CF223DA /* Pods-Improving Nutrition for Medically Complex Children.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +618,7 @@
 		};
 		AEDBA5D82B92A1F1002086CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59916FB14C80106C50EFEC1B /* Pods-Improving Nutrition for Medically Complex ChildrenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +637,7 @@
 		};
 		AEDBA5D92B92A1F1002086CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DEF4B485546479E9407F6B /* Pods-Improving Nutrition for Medically Complex ChildrenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +656,7 @@
 		};
 		AEDBA5DB2B92A1F1002086CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12045D600B982E63F5A19F7 /* Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +673,7 @@
 		};
 		AEDBA5DC2B92A1F1002086CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C44416CDF10DBF65EF22C7 /* Pods-Improving Nutrition for Medically Complex Children-Improving Nutrition for Medically Complex ChildrenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

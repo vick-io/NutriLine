@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests : NSObject
+@end
+@implementation PodsDummy_Pods_Improving_Nutrition_for_Medically_Complex_ChildrenTests
+@end
