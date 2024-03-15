@@ -1,0 +1,20 @@
+Patient Name: Emily Johnson
+Date of Birth: January 10, 2023
+Medical Record Number: 123456789
+
+Pediatric Feeding Schedule:
+
+Date: March 2, 2024
+
+Feeding Schedule:
+- 6:00 AM: Formula feeding (100 ml)
+- 9:00 AM: Breastfeeding (20 minutes per breast)
+- 12:00 PM: Solid food (strained vegetables)
+- 3:00 PM: Formula feeding (120 ml)
+- 6:00 PM: Breastfeeding (20 minutes per breast)
+- 9:00 PM: Formula feeding (100 ml)
+
+Notes:
+- Emily showed good appetite throughout the day.
+- Encouraged to introduce more variety in solid food starting next week.
+- Parents advised to monitor Emily's feeding patterns and report any changes or concerns to the pediatrician.
